@@ -1,0 +1,15 @@
+<!--pages/result/result.wxml-->
+<view class='container'>
+  <image mode='aspectFit' class='image' src='{{result}}'/>
+  <view class='detail'>{{detail}}</view>
+  <view class='divLine'/>
+  <image
+    mode='aspectFit'
+    class='weixin'
+    src='../result/src/weixin.jpg'
+    bindtap='checkimg'
+    />
+
+  <view class='text1'>狗德猫宁</view>
+  <view class='text2'>关注公众号，了解猫狗养护资讯</view>
+</view>

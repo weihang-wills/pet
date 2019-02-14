@@ -1,0 +1,23 @@
+<!--index.wxml-->
+
+<view class='box'>
+  <view wx:for='{{array}}' wx:key='index'>
+    <view class='brick'>
+      <image
+        mode='aspectFit'
+        data-index='{{index}}'
+        class='image'
+        src='{{item.src}}'
+        bindtap='bindViewTap'
+        />
+    </view>
+  </view>
+</view>
+<view class='detail'>
+<image class='blue' mode='aspectFit' src='../result/src/brick.png'/>
+  <view class="usermotto">
+    <view class="user-motto">{{motto}}</view>
+    <view class="user-motto">{{motto2}}</view>
+  </view>
+  <image class='blue' mode='aspectFit' src='../result/src/brick.png'/>
+</view>

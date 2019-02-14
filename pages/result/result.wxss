@@ -1,0 +1,38 @@
+/* pages/result/result.wxss */
+.image {
+  width: 500rpx;
+  height: 500rpx;
+  background-color: #cdcdcd;
+}
+
+.detail {
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  font-size: 28rpx;
+}
+
+.weixin {
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: 60rpx
+}
+
+.text2 {
+  margin: 10rpx;
+  font-size: 28rpx;
+  color: #8b8b8b;
+}
+
+.text1 {
+  font-size: 30rpx;
+  color: orange;
+  font-weight: bold;
+}
+
+.divLine {
+  margin: 40rpx;
+  background: #E0E3DA;
+  width: 670rpx;
+  height: 2rpx;
+}
